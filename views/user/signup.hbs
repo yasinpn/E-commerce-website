@@ -1,0 +1,41 @@
+
+    <div class="row">
+        <div class="col-md-6 m-auto">
+            <div class="container mt-5 pl-5">
+                <h1 class="text-center">Create new account</h1>
+
+                <form action="/signup" method="post" enctype="multipart/form-data"> 
+
+                    <input type="text" class="form-control" name="Name" placeholder="Name" >
+                    <label>Name</label>
+
+                    <input type="email" class="form-control" name="Email" placeholder="Email" >
+                    <label>Name</label>
+
+                    <input type="password" class="form-control" name="Password" placeholder="Password" >
+                    <label>Password</label>
+                    
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Signup</button>
+                </form>
+
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                    <div class="col d-flex justify-content-center">
+                        <!-- Checkbox -->
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                            <label class="form-check-label" for="form2Example31"> Remember me </label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p><a href="/signup">Already have an account?</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
